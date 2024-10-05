@@ -10,3 +10,12 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+
+
+<!-- copy installed packages to requirements.txt -->
+
+pip freeze > requirements.txt
+
+<!-- install required packages from requirements.txt -->
+
+pip install -r requirements.txt
